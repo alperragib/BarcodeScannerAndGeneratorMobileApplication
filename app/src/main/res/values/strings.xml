@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">QR Code and Barcode Scanner, Generator</string>
+    <string name="button_1">QR Code or Barcode Scanner</string>
+    <string name="button_2">QR Code Generator</string>
+    <string name="fab_web">Open web browser</string>
+    <string name="fab_copy">Copy</string>
+    <string name="fab_share">Share</string>
+    <string name="fab_save">Save Gallery</string>
+    <string name="fab_phone">Call</string>
+    <string name="fab_sms">Send sms</string>
+    <string name="fab_mail">Send mail</string>
+    <string name="fab_more">See More</string>
+    <string name="fab_save_result">Save to Gallery as QR Code</string>
+    <string name="fab_add">Open scanner</string>
+    <string name="fab_ref">Refresh</string>
+    <string name="fab_rate">Rate Application</string>
+    <string name="toast_copy">Copied to clipboard.</string>
+    <string name="toast_web_err">It can\'t be opened in the web browser.</string>
+    <string name="edit_text1_hint">Enter the QR code content.</string>
+    <string name="edit_text2_hint">Enter the phone number</string>
+    <string name="edit_text3_hint">Enter the message body.</string>
+    <string name="error">An error has occurred.</string>
+    <string name="error_edt_txt1">This place cannot be empty!</string>
+    <string name="file_yol">My QR Codes</string>
+    <string name="save_basarili">Your QR code has been successfully saved to your gallery.</string>
+    <string name="developer">Developed by Yazılım Mühendisim</string>
+    <string name="radio_1">Free Text</string>
+    <string name="radio_2">Url</string>
+    <string name="radio_3">Phone</string>
+    <string name="radio_4">Sms</string>
+    <string name="radio_5">Mail</string>
+</resources>

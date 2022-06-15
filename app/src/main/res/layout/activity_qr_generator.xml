@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QrGeneratorActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/imgView_qrCode"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                />
+
+            <EditText
+                android:id="@+id/edit_text_qr_generator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:minHeight="50dp"
+                android:background="@drawable/edit_text_background"
+                android:maxLength="300"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                android:padding="3dp"
+                android:hint="@string/edit_text1_hint"
+                android:inputType="text"
+                />
+            <LinearLayout
+                android:id="@+id/linear_sms_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <EditText
+                    android:id="@+id/edit_text_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:minHeight="50dp"
+                    android:background="@drawable/edit_text_background"
+                    android:maxLength="300"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="5dp"
+                    android:padding="3dp"
+                    android:hint="@string/edit_text2_hint"
+                    android:inputType="phone"
+                    />
+                <EditText
+                    android:id="@+id/edit_text_sms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:minHeight="50dp"
+                    android:background="@drawable/edit_text_background"
+                    android:maxLength="300"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="5dp"
+                    android:padding="3dp"
+                    android:hint="@string/edit_text3_hint"
+                    android:inputType="text"
+                    />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radio_group1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radio_1"
+                    android:checked="true"/>
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radio_2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radio_3" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/radio_4" />
+
+            </RadioGroup>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_qrCode"
+                android:text="@string/button_2"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorWhite"
+                android:layout_margin="16dp"
+                android:textSize="18sp"
+                android:minHeight="55dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/lineer_button_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:fabSize="normal"
+                    app:maxImageSize="40dp"
+                    app:srcCompat="@drawable/ic_save"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    />
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:fabSize="normal"
+                    app:maxImageSize="40dp"
+                    app:srcCompat="@drawable/ic_share"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    />
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:backgroundTint="@color/colorWhite"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:fabSize="normal"
+                    app:maxImageSize="50dp"
+                    app:srcCompat="@drawable/ic_close"
+                    android:layout_gravity="center"
+                    android:layout_margin="8dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="32dp"
+                android:id="@+id/linear_banner_ads_qr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView_qr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="ca-app-pub-3332967002509193/5717742602">
+                </com.google.android.gms.ads.AdView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

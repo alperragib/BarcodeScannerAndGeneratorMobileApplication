@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">QR Kod ve Barkod Tarayıcı, Oluşturucu</string>
+    <string name="button_1">QR Kod veya Barkod Tara</string>
+    <string name="button_2">QR Kod Oluştur</string>
+    <string name="fab_web">Web tarayıcısında aç</string>
+    <string name="fab_copy">Kopyala</string>
+    <string name="fab_share">Paylaş</string>
+    <string name="fab_add">Tarayıcıyı aç</string>
+    <string name="fab_phone">Ara</string>
+    <string name="fab_sms">Sms gönder</string>
+    <string name="fab_mail">Mail gönder</string>
+    <string name="fab_save">Galeriye Kaydet</string>
+    <string name="fab_more">Daha Fazlası</string>
+    <string name="fab_save_result">Galeriye QR Kod Olarak Kaydet</string>
+    <string name="fab_ref">Yenile</string>
+    <string name="fab_rate">Uygulamayı Değerlendir</string>
+    <string name="toast_copy">Panoya kopyalandı.</string>
+    <string name="toast_web_err">Web tarayıcısında açılamaz.</string>
+    <string name="edit_text1_hint">QR kod içeriğini buraya giriniz.</string>
+    <string name="edit_text2_hint">Telefon numarasını buraya giriniz.</string>
+    <string name="edit_text3_hint">Mesaj içeriğini buraya giriniz.</string>
+    <string name="error">Bir hata meydana geldi.</string>
+    <string name="error_edt_txt1">Bu alan boş bırakılamaz!</string>
+    <string name="file_yol">QR Kodlarım</string>
+    <string name="save_basarili">QR kodunuz galerinize başarıyla kaydedildi.</string>
+    <string name="developer">Yazılım Mühendisim tarafından geliştirildi.</string>
+    <string name="radio_1">Metin</string>
+    <string name="radio_2">Url</string>
+    <string name="radio_3">Telefon</string>
+    <string name="radio_4">Sms</string>
+    <string name="radio_5">Mail</string>
+</resources>
